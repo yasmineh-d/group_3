@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+
+actor Auteur
+
+rectangle "Sprint 1 - Gestion des Articles" {
+
+  (Se connecter) as UC1
+  (Lister les articles) as UC2
+  (Ajouter un article) as UC3
+  (Modifier un article) as UC4
+  (Supprimer un article) as UC5
+  (Rechercher un article) as UC6
+  (Filtrer par catégorie) as UC7
+}
+
+Auteur --> UC1
+Auteur --> UC2
+Auteur --> UC3
+Auteur --> UC4
+Auteur --> UC5
+Auteur --> UC6
+Auteur --> UC7
+
+@enduml
